@@ -1,0 +1,6 @@
+! name: Block unwanted sites
+! description: Rerank results to remove unwanted pages
+! public: false
+! author: ProsoBlue
+
+$discard, site=monasteryicons.com
