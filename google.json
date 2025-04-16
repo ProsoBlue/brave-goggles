@@ -1,0 +1,17 @@
+{
+  "name": "Block Unwanted Sites",
+  "description": "Blocks example.com and unwanted-site.com",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "homepage": "https://github.com/yourusername/brave-goggles",
+  "rules": [
+    {
+      "type": "exclude",
+      "value": "example.com"
+    },
+    {
+      "type": "exclude",
+      "value": "unwanted-site.com"
+    }
+  ]
+}
